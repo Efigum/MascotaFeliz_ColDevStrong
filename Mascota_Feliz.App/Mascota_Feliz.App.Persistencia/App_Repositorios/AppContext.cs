@@ -13,7 +13,7 @@ namespace Mascota_Feliz.App.Persistencia
 
         // implementar todas las clases
 
-        protected override void OnConfiguring(DbContextOptionBuilder optionBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             if(!optionBuilder.IsConfigured)
             {

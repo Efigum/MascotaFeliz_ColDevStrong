@@ -12,13 +12,13 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
 
         Visita AddVisita(Visita visita);
 
-        void DeleteVisita(int ID_Visita);
+        void DeleteVisita(int id_Visita);
 
-        Visita GetVisita(int ID_Visita);
+        Visita GetVisita(int id_Visita);
 
         Visita UpdateVisita(Visita visita);
 
-        IEnumerable<HVisita> GetAllVisita();
+        IEnumerable<Visita> GetAllVisita();
     }
 
 

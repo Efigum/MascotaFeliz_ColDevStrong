@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Persistencia\\Mascota_Feliz.App.Persistencia.csproj": {}
+    "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.persistencia\\Mascota_Feliz.App.Persistencia.csproj": {}
   },
   "projects": {
     "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Persistencia\\Mascota_Feliz.App.Persistencia.csproj": {
+    "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.persistencia\\Mascota_Feliz.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Persistencia\\Mascota_Feliz.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.persistencia\\Mascota_Feliz.App.Persistencia.csproj",
         "projectName": "Mascota_Feliz.App.Persistencia",
-        "projectPath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Persistencia\\Mascota_Feliz.App.Persistencia.csproj",
+        "projectPath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.persistencia\\Mascota_Feliz.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\F5024\\.nuget\\packages\\",
-        "outputPath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Persistencia\\obj\\",
+        "outputPath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\F5024\\AppData\\Roaming\\NuGet\\NuGet.Config"

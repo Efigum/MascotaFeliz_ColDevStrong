@@ -22,9 +22,9 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
             _appContext.SaveChanges();
             return historia_clinicaAdicionada.Entity;
         }
-        void IRepositorio_Historia_Clinica.DeleteHistoria_Clinica(int ID_Historia_Clinica)
+        void IRepositorio_Historia_Clinica.DeleteHistoria_Clinica(int id_Historia_Clinica)
         {
-            var historia_clinicaEncontrada = _appContext.historias_clinica.FirstOrDefault(h => h.id == historia_clinica.ID_Historia_Clinica;
+            var historia_clinicaEncontrada = _appContext.historias_clinica.FirstOrDefault(h => h.id == id_Historia_Clinica);
             if (historia_clinicaEncontrada == null)
             {
                 return;
@@ -33,25 +33,24 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
             _appContext.historias_clinica.Remove(historia_clinicaEncontrada);
             _appContext.SaveChanges();
         }
-        Historia_Clinica IRepositorio_Historia_Clinica.GetHistoria_Clinica(int ID_Historia_Clinica)
+        Historia_Clinica IRepositorio_Historia_Clinica.GetHistoria_Clinica(int id_Historia_Clinica)
         {
-            return _appContext.historias_clinica.FirstOrDefault(h => h.id == historia_clinica.ID_Historia_Clinica);
+            return _appContext.historias_clinica.FirstOrDefault(h => h.id == id_Historia_Clinica);
         }
 
         Historia_Clinica IRepositorio_Historia_Clinica.UpdateHistoria_Clinica(Historia_Clinica historia_clinica)
         {
-            var historia_clinicaEncontrada = _appContext.historias_clinica.FirstOrDefault(h => h.id == historia_clinica.ID_Historia_Clinica);
+            var historia_clinicaEncontrada = _appContext.historias_clinica.FirstOrDefault(h => h.id == historia_clinica.id);
             if (historia_clinicaEncontrada != null)
             {
-                historia_clinica.ID_Historia_Clinica = historia_clinicaEncontrada.id;
-                historia_clinica.Nombre_Mascota = historia_clinicaEncontrada.Nombre_Mascota;
+                historia_clinica.id = historia_clinicaEncontrada.id;
                 historia_clinica.Fecha_Apertura_HC = historia_clinicaEncontrada.Fecha_Apertura_HC;
-                historia_clinica.Fecha_Visita = historia_clinicaEncontrada.Fecha_Visita;
-                historia_clinica.Recomendaciones = historia_clinicaEncontrada.Recomendaciones;
-                historia_clinica.ID_Mascota = historia_clinicaEncontrada.ID_Mascota;
+                historia_clinica.mascota = historia_clinicaEncontrada.mascota;
                 _appContext.SaveChanges();
 
             }
+
+            return historia_clinica;
         }
         IEnumerable<Historia_Clinica> IRepositorio_Historia_Clinica.GetAllHistoria_Clinica()
         {

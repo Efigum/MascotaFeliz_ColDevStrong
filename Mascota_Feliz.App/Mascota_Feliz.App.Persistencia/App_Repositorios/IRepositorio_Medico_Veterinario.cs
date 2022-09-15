@@ -12,9 +12,9 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
 
         Medico_Veterinario AddMedico_Veterinario(Medico_Veterinario medico_veterinario);
 
-        void DeleteMedico_Veterinario(int ID_Veterinario);
+        void DeleteMedico_Veterinario(int id_Medico_Veterinario);
 
-        Medico_Veterinario GetMedico_Veterinario(int ID_Veterinario);
+        Medico_Veterinario GetMedico_Veterinario(int id_Medico_Veterinario);
 
         Medico_Veterinario UpdateMedico_Veterinario(Medico_Veterinario medico_veterinario);
 

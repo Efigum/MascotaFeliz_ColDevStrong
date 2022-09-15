@@ -26,10 +26,10 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
 
         Propietario_Mascota IRepositorio_Propietario_Mascota.UpdatePropietario_Mascota(Propietario_Mascota propietario)
         {
-            var propietarioActualizar = _appContext.propietarios.SingleOrDefault(r => r.id == Propietario_Mascota.ID_Propietario)
+            var propietarioActualizar = _appContext.propietarios.SingleOrDefault(r => r.id == propietario.id);
             if (propietarioActualizar != null)
             {
-                propietarioActualizar.ID_Propietario = propietario.id;
+                propietarioActualizar.id = propietario.id;
                 propietarioActualizar.Nombres_Propietario = propietario.Nombres_Propietario;
                 propietarioActualizar.Apellidos_Propietario = propietario.Apellidos_Propietario;
                 propietarioActualizar.Direccion_Propietario = propietario.Direccion_Propietario;
@@ -41,9 +41,9 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
             return propietarioActualizar;
         }
 
-        void IRepositorio_Propietario_Mascota.DeletePropietario(int ID_Propietario)
+        void IRepositorio_Propietario_Mascota.DeletePropietario_Mascota(int id_Propietario)
         {
-            var propietarioEncontrado = _appContext.propietarios.FirstOrDefault(c => c.id == ID_Propietario);
+            var propietarioEncontrado = _appContext.propietarios.FirstOrDefault(c => c.id == id_Propietario);
             if (propietarioEncontrado == null)
             {
                 return;
@@ -58,9 +58,9 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
             return _appContext.propietarios;
         }
 
-        Propietario_Mascota IRepositorio_Propietario_Mascota.GetPropietario_Mascota(int ID_Propietario)
+        Propietario_Mascota IRepositorio_Propietario_Mascota.GetPropietario_Mascota(int id_Propietario)
         {
-            return _appContext.propietarios.FirstOrDefault(c => c.id == ID_Propietario)
+            return _appContext.propietarios.FirstOrDefault(c => c.id == id_Propietario);
         }
     }
 }

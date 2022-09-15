@@ -3,3 +3,10 @@ D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Ma
 D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.AssemblyInfoInputs.cache
 D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.AssemblyInfo.cs
 D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\bin\Debug\net5.0\Mascota_Feliz.App.Dominio.deps.json
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\bin\Debug\net5.0\Mascota_Feliz.App.Dominio.dll
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\bin\Debug\net5.0\Mascota_Feliz.App.Dominio.pdb
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.dll
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\refint\Mascota_Feliz.App.Dominio.dll
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.pdb
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\ref\Mascota_Feliz.App.Dominio.dll

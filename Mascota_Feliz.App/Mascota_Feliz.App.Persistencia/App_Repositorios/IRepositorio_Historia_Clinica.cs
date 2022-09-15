@@ -12,9 +12,9 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
 
         Historia_Clinica AddHistoria_Clinica(Historia_Clinica historia_clinica);
 
-        void DeleteHistoria_Clinica(int ID_Historia_Clinica);
+        void DeleteHistoria_Clinica(int id_Historia_Clinica);
 
-        Historia_Clinica GetHistoria_Clinica(int ID_Historia_Clinica);
+        Historia_Clinica GetHistoria_Clinica(int id_Historia_Clinica);
 
         Historia_Clinica UpdateHistoria_Clinica(Historia_Clinica historia_clinica);
 

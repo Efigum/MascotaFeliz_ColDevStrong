@@ -12,9 +12,9 @@ namespace Mascota_Feliz.App.Persistencia.App_Repositorios
 
         Mascota AddMascota(Mascota mascota);
 
-        void DeleteMascota(int ID_Mascota);
+        void DeleteMascota(int id_Mascota);
 
-        Mascota GetMascota(int ID_Mascota);
+        Mascota GetMascota(int id_Mascota);
 
         Mascota UpdateMascota(Mascota mascota);
 
