@@ -1,0 +1,12 @@
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.deps.json
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.dll
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.pdb
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.csproj.AssemblyReference.cache
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.AssemblyInfoInputs.cache
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.AssemblyInfo.cs
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.dll
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\refint\Mascota_Feliz.App.Persistencia.dll
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.pdb
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\ref\Mascota_Feliz.App.Persistencia.dll

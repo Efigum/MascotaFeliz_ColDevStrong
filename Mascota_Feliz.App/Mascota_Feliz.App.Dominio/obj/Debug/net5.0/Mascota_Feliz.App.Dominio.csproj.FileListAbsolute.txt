@@ -1,0 +1,5 @@
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.csproj.AssemblyReference.cache
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.AssemblyInfoInputs.cache
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.AssemblyInfo.cs
+D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Dominio\obj\Debug\net5.0\Mascota_Feliz.App.Dominio.csproj.CoreCompileInputs.cache
