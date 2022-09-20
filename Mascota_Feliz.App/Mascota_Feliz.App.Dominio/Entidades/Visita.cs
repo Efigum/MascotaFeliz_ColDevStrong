@@ -20,5 +20,10 @@ namespace Mascota_Feliz.App.Dominio
 
         public string Medicamentos { get; set;}
 
+        public Visita()
+        {
+
+        }
+
     }
 }

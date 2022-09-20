@@ -11,7 +11,12 @@ namespace Mascota_Feliz.App.Dominio
         public string Direccion_Propietario { get; set; }
         public string Telefono_Propietario { get; set; }
         public string Correo_Electronico { get; set; }
+
+        public Propietario_Mascota()
+        {
+
+        }
         
-        
+         
     }
 }

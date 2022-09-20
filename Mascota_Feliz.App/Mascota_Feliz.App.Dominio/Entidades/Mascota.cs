@@ -19,5 +19,9 @@ namespace Mascota_Feliz.App.Dominio
         public Propietario_Mascota propietario { get; set; }
         public Medico_Veterinario medico_veterinario { get; set; }
         
+        public Mascota()
+        {
+
+        }
     }
 }

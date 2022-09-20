@@ -12,6 +12,9 @@ namespace Mascota_Feliz.App.Dominio
         public string Telefono_Veterinario { get; set; }
         public string Tarjeta_Profesional { get; set; }
         
-        
+        public Medico_Veterinario()
+        {
+
+        }
     }
 }

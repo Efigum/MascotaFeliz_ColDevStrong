@@ -12,6 +12,10 @@ namespace Mascota_Feliz.App.Dominio
         public Mascota mascota { get; set; }
         public string Fecha_Apertura_HC { get; set; }
         
+        public Historia_Clinica()
+        {
+
+        }
         
     }
 }
