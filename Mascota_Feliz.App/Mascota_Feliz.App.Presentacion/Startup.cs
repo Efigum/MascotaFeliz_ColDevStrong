@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Mascota_Feliz.App.Persistencia.App_Repositorios;
 
 namespace Mascota_Feliz.App.Presentacion
 {
@@ -23,7 +24,19 @@ namespace Mascota_Feliz.App.Presentacion
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Agregar paginas Razor
             services.AddRazorPages();
+
+            //Asociamos los repositorios a la capa de presentación para el uso del servicio DbContext para llamar los métodos CRUD.
+            services.AddScoped<IRepositorio_Historia_Clinica, Repositorio_Historia_Clinica>();
+            services.AddScoped<IRepositorio_Mascota, Repositorio_Mascota>();
+            services.AddScoped<IRepositorio_Medico_Veterinario, Repositorio_Medico_Veterinario>();
+            services.AddScoped<IRepositorio_Propietario_Mascota, Repositorio_Propietario_Mascota>();
+            services.AddScoped<IRepositorio_Visita, Repositorio_Visita>();
+
+            //Agregamos el AppContext
+            services.AddSingleton<Mascota_Feliz.App.Persistencia.App_Repositorios.AppContext>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,15 @@
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.csproj.AssemblyReference.cache
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.AssemblyInfoInputs.cache
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.AssemblyInfo.cs
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.csproj.CoreCompileInputs.cache
+D:\Mascota_Feliz\Ejercicio_cs\bin\Debug\net6.0\Ejercicio_cs.exe
+D:\Mascota_Feliz\Ejercicio_cs\bin\Debug\net6.0\Ejercicio_cs.deps.json
+D:\Mascota_Feliz\Ejercicio_cs\bin\Debug\net6.0\Ejercicio_cs.runtimeconfig.json
+D:\Mascota_Feliz\Ejercicio_cs\bin\Debug\net6.0\Ejercicio_cs.dll
+D:\Mascota_Feliz\Ejercicio_cs\bin\Debug\net6.0\Ejercicio_cs.pdb
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.dll
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\refint\Ejercicio_cs.dll
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.pdb
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\Ejercicio_cs.genruntimeconfig.cache
+D:\Mascota_Feliz\Ejercicio_cs\obj\Debug\net6.0\ref\Ejercicio_cs.dll

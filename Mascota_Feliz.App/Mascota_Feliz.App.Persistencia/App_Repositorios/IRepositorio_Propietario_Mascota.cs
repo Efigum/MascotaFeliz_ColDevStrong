@@ -1,10 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Mascota_Feliz.App.Dominio;
 using Mascota_Feliz.App.Persistencia;
 
 
-namespace Mascota_Feliz.App.Persistencia
+namespace Mascota_Feliz.App.Persistencia.App_Repositorios
 {
    
     public interface IRepositorio_Propietario_Mascota
