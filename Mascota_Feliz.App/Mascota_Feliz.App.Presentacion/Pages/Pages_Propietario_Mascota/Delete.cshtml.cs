@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Mascota_Feliz.App.Presentacion.Pages
 {
-    public class DeleteModel : PageModel
+    public class DeleteModelPropietario_Mascota : PageModel
     {
         public void OnGet()
         {
