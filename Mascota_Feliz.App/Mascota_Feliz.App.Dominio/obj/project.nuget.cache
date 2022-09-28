@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+2s3ysanHGmWkQCCD987m1/WgH57AG++H9UzVFp8W5olIOgBg5n1rMfSjLPbxFuQJubLrxT2dyorjPq1GGwcBw==",
+  "dgSpecHash": "31eDMgx2QqHnIWI7GEsSr0sHLSksq/vhtvvyakaaCyYCeeolDD6jKfuXpJ037VmklL5c5juy7H8TmmBzmRdTQg==",
   "success": true,
-  "projectFilePath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj",
+  "projectFilePath": "D:\\Proyectos C#\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

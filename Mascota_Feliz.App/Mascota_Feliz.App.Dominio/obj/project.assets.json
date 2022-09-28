@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj",
+      "projectUniqueName": "D:\\Proyectos C#\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj",
       "projectName": "Mascota_Feliz.App.Dominio",
-      "projectPath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj",
+      "projectPath": "D:\\Proyectos C#\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\Mascota_Feliz.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\F5024\\.nuget\\packages\\",
-      "outputPath": "D:\\Mascota_Feliz\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\obj\\",
+      "outputPath": "D:\\Proyectos C#\\Mascota_Feliz.App\\Mascota_Feliz.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\F5024\\AppData\\Roaming\\NuGet\\NuGet.Config"

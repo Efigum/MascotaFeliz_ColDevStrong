@@ -16,3 +16,21 @@ D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5
 D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Dominio.pdb
 D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.csproj.CopyComplete
 D:\Mascota_Feliz\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.genruntimeconfig.cache
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.deps.json
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.runtimeconfig.json
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.runtimeconfig.dev.json
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.dll
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Persistencia.pdb
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Dominio.dll
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\bin\Debug\net5.0\Mascota_Feliz.App.Dominio.pdb
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.csproj.AssemblyReference.cache
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.AssemblyInfoInputs.cache
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.AssemblyInfo.cs
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.csproj.CopyComplete
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.dll
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\refint\Mascota_Feliz.App.Persistencia.dll
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.pdb
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\Mascota_Feliz.App.Persistencia.genruntimeconfig.cache
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Persistencia\obj\Debug\net5.0\ref\Mascota_Feliz.App.Persistencia.dll

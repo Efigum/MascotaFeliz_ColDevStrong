@@ -3,32 +3,19 @@
 @{
 }
 
-<h2>Detalles de Propietario</h2>
-<form method="post">
-  <div class="mb-3">
-    <label>Nombre</label>
-    <input asp-for = "propietario.Nombres_Propietario" type="text" class="form-control" required ="required">
-     </div>
+<h5>Seleccione una de las siguientes opciones:</h5>
 
-      <div class="mb-3">
-    <label>Apellidos</label>
-    <input asp-for = "propietario.Apellidos_Propietario"type="text" class="form-control" required ="required">
-     </div>
+  <td>
+    <a class="btn btn-primary table-btn" asp-page = "./Create" >Crear Propietario de Mascota</a>
+    <i class="fas fa-trash_circle fa-lg" ></i>
+    </td>
 
-     <div class="mb-3">
-    <label>Dirección</label>
-    <input asp-for = "propietario.Direccion_Propietario"type="text" class="form-control" required ="required">
-     </div>
+    <td>
+    <a class="btn btn-primary table-btn" asp-page = "./Edit" >Editar Propietario de Mascota</a>
+    <i class="fas fa-trash_circle fa-lg" ></i>
+    </td>
 
-     <div class="mb-3">
-    <label>Telefono</label>
-    <input asp-for = "propietario.Telefono_Propietario"type="text" class="form-control" required ="required">
-     </div>
-
-     <div class="mb-3">
-    <label>Correo_Electronico</label>
-    <input asp-for = "propietario.Correo_Electronico"type="text" class="form-control" required ="required">
-     </div>
- 
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <td>
+    <a class="btn btn-primary table-btn" asp-page = "./List" >Listas de Propietarios</a>
+    <i class="fas fa-trash_circle fa-lg" ></i>
+  </td>

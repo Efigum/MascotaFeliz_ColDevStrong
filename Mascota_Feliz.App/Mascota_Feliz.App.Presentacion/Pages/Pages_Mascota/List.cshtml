@@ -3,9 +3,38 @@
 @{
 }
 
-<h2>Zona de Mascotas</h2>
+<h2>Lista de Mascotas</h2>
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nombre de la Mascota</th>
+      <th scope="col">Especie</th>
+      <th scope="col">Raza</th>
+      <th scope="col">Color</th>
+      
+    </tr>
+<br>
 
-<div>
-    <a class="btn btn-primary table-btn" asp-page = "./Details" ></a>
-    <i class="fas fa-trash_circle fa-lg" ></i>
- </div>
+ @foreach (var _Mascota in Model.mascotas)
+ {
+    <tr>
+        <td>@_Mascota.id</td>
+        <td>@_Mascota.Nombre_Mascota</td>
+        <td>@_Mascota.Especie</td>
+        <td>@_Mascota.Raza</td>
+        <td>@_Mascota.Color</td>
+        
+        <td>
+          <a class="btn btn-primary table-btn" asp-page = "./Edit" >Editar</a>
+          <i class="fas fa-info_circle fa-lg" ></i>
+        </td>
+
+        <td>
+          <a class="btn btn-primary table-btn" asp-page = "./Delete" >Borrar</a>
+          <i class="fas fa-trash_circle fa-lg" ></i>
+        </td>               
+    </tr>
+ }
+
+</table>

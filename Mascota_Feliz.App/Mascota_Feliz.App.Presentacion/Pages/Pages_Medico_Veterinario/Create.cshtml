@@ -1,0 +1,35 @@
+﻿@page
+@model Mascota_Feliz.App.Presentacion.Pages.CreateModelMedico_Veterinario
+@{
+}
+
+<h2>Ingrese los datos del Médico Veterinario</h2>
+
+<form method="post">
+  <div class="mb-3">
+    <label>Nombres del Médico Veterinario</label>
+    <input asp-for = "medico_veterinario.Nombre_Veterinario" type="text" class="form-control" required ="required">
+     </div>
+
+      <div class="mb-3">
+    <label>Apellidos del Médico Veterinario</label>
+    <input asp-for = "medico_veterinario.Apellidos_Veterinario"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Dirección</label>
+    <input asp-for = "medico_veterinario.Direccion_Veterinario"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Telefono</label>
+    <input asp-for = "medico_veterinario.Telefono_Veterinario"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Tarjeta Profesional</label>
+    <input asp-for = "medico_veterinario.Tarjeta_Profesional"type="text" class="form-control" required ="required">
+     </div>
+ 
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

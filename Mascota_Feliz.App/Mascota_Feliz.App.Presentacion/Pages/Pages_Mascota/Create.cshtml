@@ -1,0 +1,35 @@
+﻿@page
+@model Mascota_Feliz.App.Presentacion.Pages.CreateModelMascota
+@{
+}
+
+<h2>Ingrese los datos de la Mascota</h2>
+<form method="post">
+  <div class="mb-3">
+    <label>Nombre de la Mascota</label>
+    <input asp-for = "mascota.Nombre_Mascota" type="text" class="form-control" required ="required">
+     </div>
+
+      <div class="mb-3">
+    <label>Especie</label>
+    <input asp-for = "mascota.Especie"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Raza</label>
+    <input asp-for = "mascota.Raza"type="text" class="form-control" required ="required">
+     </div>
+
+    <div class="mb-3">
+    <label>Color</label>
+    <input asp-for = "mascota.Color"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Propietario de la Mascota</label>
+    <input asp-for = "propietario.Nombres_Propietario"type="text" class="form-control" required ="required">
+     </div>
+
+        
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
