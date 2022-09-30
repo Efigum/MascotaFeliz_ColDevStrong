@@ -2,3 +2,40 @@
 @model Mascota_Feliz.App.Presentacion.Pages.DeleteModelMascota
 @{
 }
+
+<br>
+<br>
+
+<br>
+<form method="post">
+  <div class="mb-3">
+    <input type="hidden" asp-for = "mascota.id"/>
+    <label>Nombre de la Mascota</label>
+    <input asp-for = "mascota.Nombre_Mascota" type="text" class="form-control" readonly>
+     </div>
+
+      <div class="mb-3">
+    <label>Especie</label>
+    <input asp-for = "mascota.Especie"type="text" class="form-control" readonly>
+     </div>
+
+     <div class="mb-3">
+    <label>Raza</label>
+    <input asp-for = "mascota.Raza"type="text" class="form-control" readonly>
+     </div>
+
+    <div class="mb-3">
+    <label>Color</label>
+    <input asp-for = "mascota.Color"type="text" class="form-control" readonly>
+     </div>
+
+  <br> 
+  <h5>¿Está seguro que de desea eliminar el registro del sistema?</h5> 
+  <br>
+  <br>       
+  <button type="submit" class="btn btn-outline-danger" >Eliminar</button>
+  
+</form>
+
+<br> 
+ <a class="btn btn-outline-success" asp-page = "./List" >Cancelar</a>

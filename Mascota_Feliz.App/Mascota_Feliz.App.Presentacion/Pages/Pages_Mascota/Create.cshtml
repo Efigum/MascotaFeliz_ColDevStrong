@@ -24,12 +24,36 @@
     <label>Color</label>
     <input asp-for = "mascota.Color"type="text" class="form-control" required ="required">
      </div>
+    
+<div class="form-group">Seleccione el Propietario de la Mascota:
+  <br>
+    <select name= "idpropietario" class="form-control" id="idpropietario" asp-for="propietario.id">
+    <option>Seleccione:</option>
+    
+@foreach (var _Propietario in Model.propietarios)
 
-     <div class="mb-3">
-    <label>Propietario de la Mascota</label>
-    <input asp-for = "propietario.Nombres_Propietario"type="text" class="form-control" required ="required">
-     </div>
+{
+   <option value="@_Propietario.id">@_Propietario.Nombres_Propietario</option>
+}
 
+    </select>
+</div>
+<br>
+
+<div class="form-group">Seleccione el Médico Veterinario:
+  <br>
+    <select name= "idveterinario" class="form-control" id="idveterinario" asp-for="veterinario.id">
+    <option>Seleccione:</option>
+    
+@foreach (var _Veterinario in Model.veterinarios)
+
+{
+   <option value="@_Veterinario.id">@_Veterinario.Nombre_Veterinario</option>
+}
+
+    </select>
+</div>
         
-  <button type="submit" class="btn btn-primary">Guardar</button>
+  <button type="submit" class="btn btn-outline-success">Guardar</button>
+  <a class="btn btn-outline-info" asp-page = "./Details" >Regresar</a>
 </form>

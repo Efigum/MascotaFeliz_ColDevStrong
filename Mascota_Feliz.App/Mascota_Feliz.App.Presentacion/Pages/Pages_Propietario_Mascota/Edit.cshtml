@@ -3,14 +3,37 @@
 @{
 }
 
-<h5>Seleccione el Propietario de Mascota que desea editar:</h5>
+<h5>Realiza la actualización de datos y oprime guardar:</h5>
 
-<div class="form-group">
-  <label for="sel1">Select list:</label>
-  <select class="form-control" id="sel1">
-    <option>Propietario 1</option>
-    <option>Propietario 2</option>
-    <option>Propietario 3</option>
-    <option>Propietario 4</option>
-  </select>
-</div>
+<form method="post">
+  <div class="mb-3">
+    <input type="hidden" asp-for = "propietario_mascota.id"/>
+    <label>Nombre del Propietario</label>
+    <input asp-for = "propietario_mascota.Nombres_Propietario" type="text" class="form-control" required ="required">
+     </div>
+
+      <div class="mb-3">
+    <label>Apellidos del Propietario</label>
+    <input asp-for = "propietario_mascota.Apellidos_Propietario"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Dirección</label>
+    <input asp-for = "propietario_mascota.Direccion_Propietario"type="text" class="form-control" required ="required">
+     </div>
+
+    <div class="mb-3">
+    <label>Telefono</label>
+    <input asp-for = "propietario_mascota.Telefono_Propietario"type="text" class="form-control" required ="required">
+     </div>
+
+     <div class="mb-3">
+    <label>Correo Electrónico</label>
+    <input asp-for = "propietario_mascota.Correo_Electronico"type="text" class="form-control" required ="required">
+     </div>
+
+                 
+  <button type="submit" class="btn btn-primary">Guardar</button>
+  
+</form>
+

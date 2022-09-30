@@ -187,3 +187,4 @@ D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Presentacion\obj\Debug\net5.
 D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Pages_Mascota\Create.cshtml.g.cs
 D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Pages_Medico_Veterinario\Create.cshtml.g.cs
 D:\Proyectos C#\Mascota_Feliz.App\Mascota_Feliz.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Pages_Propietario_Mascota\Create.cshtml.g.cs
+D:\Proyectos C#\Mascota_Feliz.App\Mascota_feliz.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Pages_Mascota\Search.cshtml.g.cs

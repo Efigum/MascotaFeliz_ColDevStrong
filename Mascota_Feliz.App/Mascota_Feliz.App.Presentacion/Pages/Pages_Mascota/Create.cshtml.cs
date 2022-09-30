@@ -36,8 +36,12 @@ namespace Mascota_Feliz.App.Presentacion.Pages
             veterinarios = _Medico_Veterinario.GetAllMedico_Veterinario();
         }
 
-        public IActionResult OnPost(Mascota mascota)
+        public IActionResult OnPost(Mascota mascota,int idpropietario, int idveterinario)
         {
+            Console.WriteLine(idpropietario);
+            Console.WriteLine(idveterinario);
+            /*mascota.medico_veterinario=veterinario;
+            mascota.propietario=propietario;*/
             _Mascota.AddMascota(mascota);
             return RedirectToPage("Details");
         }

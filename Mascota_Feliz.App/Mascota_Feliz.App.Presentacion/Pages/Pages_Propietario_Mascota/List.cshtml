@@ -30,15 +30,20 @@
         <td>@propietario_Mascota.Telefono_Propietario</td>
         <td>@propietario_Mascota.Correo_Electronico</td>
         <td>
-          <a class="btn btn-primary table-btn" asp-page = "./Edit" >Editar</a>
+          <a class="btn btn-outline-warning" asp-page = "./Edit" asp-route-IdPropietario_Mascota="@propietario_Mascota.id" >Editar</a>
           <i class="fas fa-info_circle fa-lg" ></i>
         </td>
 
         <td>
-          <a class="btn btn-primary table-btn" asp-page = "./Delete" >Borrar</a>
+          <a class="btn btn-outline-danger" asp-page = "./Delete" >Borrar</a>
           <i class="fas fa-trash_circle fa-lg" ></i>
         </td>               
     </tr>
  }
 
 </table>
+
+<br>
+<br>
+<a class="btn btn-outline-info" asp-page = "./Details" >Regresar</a>
+
